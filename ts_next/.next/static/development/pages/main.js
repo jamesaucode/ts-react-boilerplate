@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/main.js"],{
 
 /***/ "./node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js":
 /*!*******************************************************************************!*\
@@ -493,21 +493,21 @@ function index (origin) {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fjames%2FDocuments%2Ftsproj%2Fpages%2Findex.tsx!./":
-/*!*********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fjames%2FDocuments%2Ftsproj%2Fpages%2Findex.tsx ***!
-  \*********************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fmain&absolutePagePath=%2Fhome%2Fjames%2FDocuments%2Ftsproj%2Fpages%2Fmain.tsx!./":
+/*!************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fmain&absolutePagePath=%2Fhome%2Fjames%2FDocuments%2Ftsproj%2Fpages%2Fmain.tsx ***!
+  \************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var page = __webpack_require__(/*! ./pages/index.tsx */ "./pages/index.tsx")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/main", function() {
+      var page = __webpack_require__(/*! ./pages/main.tsx */ "./pages/main.tsx")
       if(true) {
-        module.hot.accept(/*! ./pages/index.tsx */ "./pages/index.tsx", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.tsx */ "./pages/index.tsx")
-          next.router.update("/", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/main.tsx */ "./pages/main.tsx", function() {
+          if(!next.router.components["/main"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/main.tsx */ "./pages/main.tsx")
+          next.router.update("/main", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -4231,10 +4231,10 @@ if ( true && typeof window !== 'undefined' && typeof navigator !== 'undefined' &
 
 /***/ }),
 
-/***/ "./pages/index.tsx":
-/*!*************************!*\
-  !*** ./pages/index.tsx ***!
-  \*************************/
+/***/ "./pages/main.tsx":
+/*!************************!*\
+  !*** ./pages/main.tsx ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -4248,28 +4248,28 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var Heading = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1.withConfig({
-  displayName: "pages__Heading",
-  componentId: "sc-1b7p5zx-0"
-})(["font-family:Arial,Helvetica,sans-serif;font-size:2.5em;font-weight:600;text-align:center;color:#222222;"]);
 var Layout = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
-  displayName: "pages__Layout",
-  componentId: "sc-1b7p5zx-1"
+  displayName: "main__Layout",
+  componentId: "sc-1v02pf7-0"
 })(["margin:2rem;"]);
+var Heading = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1.withConfig({
+  displayName: "main__Heading",
+  componentId: "sc-1v02pf7-1"
+})(["font-size:2em;font-family:Arial,Helvetica,sans-serif;"]);
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Layout, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Heading, null, "This is a Heading!"));
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Layout, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Heading, null, "This is another heading."));
 });
 
 /***/ }),
 
-/***/ 0:
-/*!*************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fjames%2FDocuments%2Ftsproj%2Fpages%2Findex.tsx ***!
-  \*************************************************************************************************************************/
+/***/ 2:
+/*!****************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fmain&absolutePagePath=%2Fhome%2Fjames%2FDocuments%2Ftsproj%2Fpages%2Fmain.tsx ***!
+  \****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fjames%2FDocuments%2Ftsproj%2Fpages%2Findex.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fjames%2FDocuments%2Ftsproj%2Fpages%2Findex.tsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fmain&absolutePagePath=%2Fhome%2Fjames%2FDocuments%2Ftsproj%2Fpages%2Fmain.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fmain&absolutePagePath=%2Fhome%2Fjames%2FDocuments%2Ftsproj%2Fpages%2Fmain.tsx!./");
 
 
 /***/ }),
@@ -4285,5 +4285,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=index.js.map
+},[[2,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=main.js.map

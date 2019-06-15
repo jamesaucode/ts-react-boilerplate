@@ -6,9 +6,9 @@
   "author": "James Au",
   "license": "MIT",
   "scripts": {
-    "dev": "node ./backend/server.js",
-    "compile": "tsc ./backend/server.ts -w",
-    "start": "next start"
+    "start": "nodemon ./bin/server.js",
+    "compile": "tsc --project tsconfig.server.json -w",
+    "build": "next build && tsc --project tsconfig.server.json"
   },
   "dependencies": {
     "@types/express": "^4.17.0",
@@ -21,6 +21,7 @@
     "awesome-typescript-loader": "^5.2.1",
     "express": "^4.17.1",
     "next": "^8.1.0",
+    "nodemon": "^1.19.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "source-map-loader": "^0.2.4",

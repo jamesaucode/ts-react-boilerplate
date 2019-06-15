@@ -1,0 +1,1 @@
+{"version":3,"file":"route.js","sourceRoot":"","sources":["../../../server/routes/api/route.ts"],"names":[],"mappings":";;AAAA,mCAAmC;AAEnC,MAAM,MAAM,GAAG,OAAO,CAAC,MAAM,EAAE,CAAC;AAEhC,MAAM,CAAC,GAAG,CAAC,GAAG,EAAE,CAAC,GAAG,EAAE,GAAG,EAAE,EAAE,CAAC,GAAG,CAAC,IAAI,CAAC,EAAE,EAAE,EAAG,IAAI,EAAC,CAAC,CAAC,CAAC;AAEtD,kBAAe,MAAM,CAAC"}

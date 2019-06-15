@@ -88,15 +88,15 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./pages/index.tsx":
-/*!*************************!*\
-  !*** ./pages/index.tsx ***!
-  \*************************/
+/***/ "./pages/main.tsx":
+/*!************************!*\
+  !*** ./pages/main.tsx ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -111,16 +111,16 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var Heading = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.h1.withConfig({
-  displayName: "pages__Heading",
-  componentId: "sc-1b7p5zx-0"
-})(["font-family:Arial,Helvetica,sans-serif;font-size:2.5em;font-weight:600;text-align:center;color:#222222;"]);
 var Layout = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
-  displayName: "pages__Layout",
-  componentId: "sc-1b7p5zx-1"
+  displayName: "main__Layout",
+  componentId: "sc-1v02pf7-0"
 })(["margin:2rem;"]);
+var Heading = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.h1.withConfig({
+  displayName: "main__Heading",
+  componentId: "sc-1v02pf7-1"
+})(["font-size:2em;font-family:Arial,Helvetica,sans-serif;"]);
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Layout, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Heading, null, "This is a Heading!"));
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Layout, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Heading, null, "This is another heading."));
 });
 
 /***/ }),
@@ -136,14 +136,14 @@ var Layout = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withCo
 
 /***/ }),
 
-/***/ 3:
-/*!*******************************!*\
-  !*** multi ./pages/index.tsx ***!
-  \*******************************/
+/***/ 4:
+/*!******************************!*\
+  !*** multi ./pages/main.tsx ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/james/Documents/tsproj/pages/index.tsx */"./pages/index.tsx");
+module.exports = __webpack_require__(/*! /home/james/Documents/tsproj/pages/main.tsx */"./pages/main.tsx");
 
 
 /***/ }),
@@ -171,4 +171,4 @@ module.exports = require("styled-components");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=main.js.map

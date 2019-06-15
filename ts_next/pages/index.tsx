@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import '../reset.css';
 
 const Heading = styled.h1`
     font-family: Arial, Helvetica, sans-serif;
@@ -8,6 +9,7 @@ const Heading = styled.h1`
     text-align: center;
     color: #222222;
 `
+
 const Layout = styled.div`
     margin: 2rem;
 `
